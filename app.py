@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ['cohere_api_key'] = "7MAfg8N8YZ1oan4EAlVsOxM1tWDkx8YrAScMD00r"
+os.environ['cohere_api_key'] = "your_cohere_api_key"
 
 st.set_page_config(page_title="Educate Kids", page_icon=":robot:")
 st.header("Hey, Ask me something & I will give out similar things.")
